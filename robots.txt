@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /?s=*
+Disallow: /?type=*
+Disallow: /chinese-new-year-gala-online
+Disallow: /fifa2018-asia-qualification
+Disallow: /404.html
+
+User-agent: MJ12bot
+Disallow: /
+
+Sitemap: http://www.yuxiau.com/sitemap.xml
