@@ -387,7 +387,7 @@ i.icon:before{-webkit-transition:0.2s ease-in;-moz-transition:0.2s ease-in;-ms-t
 .article-row{border:0;padding:0 0 0 15px;}
 .article-summary{width:100%;}
 .article-summary .article-summary-inner{margin:15px 15px 15px 0;}
-#sidebar{background:#8e9aaf;float:none;margin:0;width:100%;}
+#sidebar{background:#f0f0f0;float:none;margin:0;width:100%;}
 #sidebar .sidebar-top,#sidebar .widget-wrap{padding:15px;}
 #sidebar .widgets-container{padding-bottom:15px;}
 #footer{margin-top:0;}
