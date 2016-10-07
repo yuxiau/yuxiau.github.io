@@ -400,3 +400,4 @@ a[href^="http://www.yuxiau.com"]:after,a.no_icon:after{content:""!important;padd
 a[href^="https://www.yuxiau.com"]:after,a.no_icon:after{content:""!important;padding-left:0;}
 .widget a:after{content:""!important;padding-left:0;}
 a[href^="https://plus.google"]:after,a.no_icon:after{content:""!important;padding-left:0;}
+a[href^="mailto"]:after,a.no_icon:after{content:""!important;padding-left:0;}
