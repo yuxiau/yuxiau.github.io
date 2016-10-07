@@ -98,7 +98,7 @@ code{background-color:#f8f8f8;border-radius:2px;color:#e96900;font-family:Source
 #sidebar .sidebar-top .social-links li{float:left;margin-left:8px;}
 #sidebar .sidebar-top .social-links li a:hover i:before{color:#fff;}
 #sidebar .sidebar-top .social-links .social-tooltip{position:relative;}
-#sidebar .sidebar-top .social-links .social-tooltip:hover:after{background:#fff;border-radius:3px;-webkit-box-shadow:0 0 2px rgba(0,0,0,0.2);box-shadow:0 0 2px rgba(0,0,0,0.2);color:#666;content:attr(title);display:block;font-size:14px;padding:5px 15px;position:absolute;right:0;text-transform:uppercase;top:-41px;white-space:nowrap;z-index:1;}
+#sidebar .sidebar-top .social-links .social-tooltip:hover:after{background:#fff;border-radius:3px;-webkit-box-shadow:0 0 2px rgba(0,0,0,0.2);box-shadow:0 0 2px rgba(0,0,0,0.2);color:#666;content:attr(title);display:none;font-size:14px;padding:5px 15px;position:absolute;right:0;text-transform:uppercase;top:-41px;white-space:nowrap;z-index:1;}
 #sidebar .sidebar-top .social-links .social-tooltip:hover:before{border:solid;border-color:#fff transparent;border-width:5px 5px 0 5px;content:"";display:block;position:absolute;right:8px;top:-10px;z-index:2;}
 #sidebar .sidebar-top i{color:rgba(255,255,255,0.7);font-size:24px;width:24px;}
 #article-nav{position:relative;}
@@ -399,3 +399,4 @@ a[rel^="external"]:after{content:"\f08e";display:inline-block;font-family:FontAw
 a[href^="http://www.yuxiau.com"]:after,a.no_icon:after{content:""!important;padding-left:0;}
 a[href^="https://www.yuxiau.com"]:after,a.no_icon:after{content:""!important;padding-left:0;}
 .widget a:after{content:""!important;padding-left:0;}
+a[href^="https://plus.google"]:after,a.no_icon:after{content:""!important;padding-left:0;}

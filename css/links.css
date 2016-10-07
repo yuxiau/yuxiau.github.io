@@ -2,3 +2,4 @@ a[rel^="external"]:after{content:"\f08e";display:inline-block;font-family:FontAw
 a[href^="http://www.yuxiau.com"]:after,a.no_icon:after{content:""!important;padding-left:0;}
 a[href^="https://www.yuxiau.com"]:after,a.no_icon:after{content:""!important;padding-left:0;}
 .widget a:after{content:""!important;padding-left:0;}
+a[href^="https://plus.google"]:after,a.no_icon:after{content:""!important;padding-left:0;}
