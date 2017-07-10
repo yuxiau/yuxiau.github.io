@@ -1,1 +1,125 @@
-!function(e){if("object"==typeof exports&&"undefined"!=typeof module)module.exports=e();else if("function"==typeof define&&define.amd)define([],e);else{var t;t="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:this,t.LgFullscreen=e()}}(function(){var e;return function t(e,n,r){function i(s,a){if(!n[s]){if(!e[s]){var u="function"==typeof require&&require;if(!a&&u)return u(s,!0);if(o)return o(s,!0);var l=new Error("Cannot find module '"+s+"'");throw l.code="MODULE_NOT_FOUND",l}var c=n[s]={exports:{}};e[s][0].call(c.exports,function(t){var n=e[s][1][t];return i(n?n:t)},c,c.exports,t,e,n,r)}return n[s].exports}for(var o="function"==typeof require&&require,s=0;s<r.length;s++)i(r[s]);return i}({1:[function(t,n,r){!function(t,n){if("function"==typeof e&&e.amd)e([],n);else if("undefined"!=typeof r)n();else{var i={exports:{}};n(),t.lgFullscreen=i.exports}}(this,function(){"use strict";var e=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)Object.prototype.hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e},t={fullScreen:!0},n=function(n){return this.el=n,this.core=window.lgData[this.el.getAttribute("lg-uid")],this.core.s=e({},t,this.core.s),this.init(),this};n.prototype.init=function(){var e="";if(this.core.s.fullScreen){if(!(document.fullscreenEnabled||document.webkitFullscreenEnabled||document.mozFullScreenEnabled||document.msFullscreenEnabled))return;e='<span class="lg-fullscreen lg-icon"></span>',this.core.outer.querySelector(".lg-toolbar").insertAdjacentHTML("beforeend",e),this.fullScreen()}},n.prototype.requestFullscreen=function(){var e=document.documentElement;e.requestFullscreen?e.requestFullscreen():e.msRequestFullscreen?e.msRequestFullscreen():e.mozRequestFullScreen?e.mozRequestFullScreen():e.webkitRequestFullscreen&&e.webkitRequestFullscreen()},n.prototype.exitFullscreen=function(){document.exitFullscreen?document.exitFullscreen():document.msExitFullscreen?document.msExitFullscreen():document.mozCancelFullScreen?document.mozCancelFullScreen():document.webkitExitFullscreen&&document.webkitExitFullscreen()},n.prototype.fullScreen=function(){var e=this;utils.on(document,"fullscreenchange.lgfullscreen webkitfullscreenchange.lgfullscreen mozfullscreenchange.lgfullscreen MSFullscreenChange.lgfullscreen",function(){utils.hasClass(e.core.outer,"lg-fullscreen-on")?utils.removeClass(e.core.outer,"lg-fullscreen-on"):utils.addClass(e.core.outer,"lg-fullscreen-on")}),utils.on(this.core.outer.querySelector(".lg-fullscreen"),"click.lg",function(){document.fullscreenElement||document.mozFullScreenElement||document.webkitFullscreenElement||document.msFullscreenElement?e.exitFullscreen():e.requestFullscreen()})},n.prototype.destroy=function(){this.exitFullscreen(),utils.off(document,".lgfullscreen")},window.lgModules.fullscreen=n})},{}]},{},[1])(1)});
+/**!
+ * lg-fullscreen.js | 0.0.1 | August 1st 2016
+ * http://sachinchoolur.github.io/lg-fullscreen.js
+ * Copyright (c) 2016 Sachin N; 
+ * @license Apache 2.0 
+ */(function(f){if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=f()}else if(typeof define==="function"&&define.amd){define([],f)}else{var g;if(typeof window!=="undefined"){g=window}else if(typeof global!=="undefined"){g=global}else if(typeof self!=="undefined"){g=self}else{g=this}g.LgFullscreen = f()}})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+(function (global, factory) {
+    if (typeof define === "function" && define.amd) {
+        define([], factory);
+    } else if (typeof exports !== "undefined") {
+        factory();
+    } else {
+        var mod = {
+            exports: {}
+        };
+        factory();
+        global.lgFullscreen = mod.exports;
+    }
+})(this, function () {
+    'use strict';
+
+    var _extends = Object.assign || function (target) {
+        for (var i = 1; i < arguments.length; i++) {
+            var source = arguments[i];
+
+            for (var key in source) {
+                if (Object.prototype.hasOwnProperty.call(source, key)) {
+                    target[key] = source[key];
+                }
+            }
+        }
+
+        return target;
+    };
+
+    var fullscreenDefaults = {
+        fullScreen: true
+    };
+
+    var Fullscreen = function Fullscreen(element) {
+
+        this.el = element;
+
+        this.core = window.lgData[this.el.getAttribute('lg-uid')];
+        this.core.s = _extends({}, fullscreenDefaults, this.core.s);
+
+        this.init();
+
+        return this;
+    };
+
+    Fullscreen.prototype.init = function () {
+        var fullScreen = '';
+        if (this.core.s.fullScreen) {
+
+            // check for fullscreen browser support
+            if (!document.fullscreenEnabled && !document.webkitFullscreenEnabled && !document.mozFullScreenEnabled && !document.msFullscreenEnabled) {
+                return;
+            } else {
+                fullScreen = '<span class="lg-fullscreen lg-icon"></span>';
+                this.core.outer.querySelector('.lg-toolbar').insertAdjacentHTML('beforeend', fullScreen);
+                this.fullScreen();
+            }
+        }
+    };
+
+    Fullscreen.prototype.requestFullscreen = function () {
+        var el = document.documentElement;
+        if (el.requestFullscreen) {
+            el.requestFullscreen();
+        } else if (el.msRequestFullscreen) {
+            el.msRequestFullscreen();
+        } else if (el.mozRequestFullScreen) {
+            el.mozRequestFullScreen();
+        } else if (el.webkitRequestFullscreen) {
+            el.webkitRequestFullscreen();
+        }
+    };
+
+    Fullscreen.prototype.exitFullscreen = function () {
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.msExitFullscreen) {
+            document.msExitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        }
+    };
+
+    // https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Using_full_screen_mode
+    Fullscreen.prototype.fullScreen = function () {
+        var _this = this;
+
+        utils.on(document, 'fullscreenchange.lgfullscreen webkitfullscreenchange.lgfullscreen mozfullscreenchange.lgfullscreen MSFullscreenChange.lgfullscreen', function () {
+            if (utils.hasClass(_this.core.outer, 'lg-fullscreen-on')) {
+                utils.removeClass(_this.core.outer, 'lg-fullscreen-on');
+            } else {
+                utils.addClass(_this.core.outer, 'lg-fullscreen-on');
+            }
+        });
+
+        utils.on(this.core.outer.querySelector('.lg-fullscreen'), 'click.lg', function () {
+            if (!document.fullscreenElement && !document.mozFullScreenElement && !document.webkitFullscreenElement && !document.msFullscreenElement) {
+                _this.requestFullscreen();
+            } else {
+                _this.exitFullscreen();
+            }
+        });
+    };
+
+    Fullscreen.prototype.destroy = function () {
+
+        // exit from fullscreen if activated
+        this.exitFullscreen();
+
+        utils.off(document, '.lgfullscreen');
+    };
+
+    window.lgModules.fullscreen = Fullscreen;
+});
+
+},{}]},{},[1])(1)
+});
