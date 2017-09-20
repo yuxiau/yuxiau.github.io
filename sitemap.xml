@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.yuxiau.com/disclaimer/</loc>
+    
+    <lastmod>2017-09-20T21:01:22.236Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.yuxiau.com/swiss-grapeseed/</loc>
     
     <lastmod>2017-07-24T22:54:48.764Z</lastmod>
@@ -96,13 +103,6 @@
     <loc>http://www.yuxiau.com/tvb-shopping-festival-2017/</loc>
     
     <lastmod>2017-06-06T12:13:50.570Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.yuxiau.com/melbourne-seafood-restaurants/</loc>
-    
-    <lastmod>2017-06-06T08:59:46.402Z</lastmod>
     
   </url>
   
@@ -205,16 +205,16 @@
   </url>
   
   <url>
-    <loc>http://www.yuxiau.com/melbourne-tourist-guide/</loc>
+    <loc>http://www.yuxiau.com/melbourne-seafood-restaurants/</loc>
     
     <lastmod>2017-06-06T08:59:46.402Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.yuxiau.com/australia-events-2017/</loc>
+    <loc>http://www.yuxiau.com/melbourne-tourist-guide/</loc>
     
-    <lastmod>2017-06-06T08:59:46.398Z</lastmod>
+    <lastmod>2017-06-06T08:59:46.402Z</lastmod>
     
   </url>
   
@@ -234,6 +234,13 @@
   
   <url>
     <loc>http://www.yuxiau.com/canberra-tourist-guide/</loc>
+    
+    <lastmod>2017-06-06T08:59:46.398Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.yuxiau.com/australia-events-2017/</loc>
     
     <lastmod>2017-06-06T08:59:46.398Z</lastmod>
     
