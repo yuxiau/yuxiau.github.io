@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.yuxiau.com/"/>
-  <updated>2017-07-24T22:54:48.764Z</updated>
+  <updated>2018-09-26T22:11:25.555Z</updated>
   <id>http://www.yuxiau.com/</id>
   
   <author>
@@ -14,6 +14,49 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Butterfly VPN产品评测 - 国外看优酷，国内看Youtube的快捷解决方案</title>
+    <link href="http://www.yuxiau.com/butterfly-vpn/"/>
+    <id>http://www.yuxiau.com/butterfly-vpn/</id>
+    <published>2018-09-19T05:40:12.000Z</published>
+    <updated>2018-09-26T22:11:25.555Z</updated>
+    
+    <content type="html"><![CDATA[<p>在海外读书生活的小伙伴们经常会遇到一个很烦人的问题，就是在访问国内优酷，爱奇艺，腾讯视频等视频网站追剧的时候经常会看到“您所在的国家或地区暂时无法使用”的提示信息。或者每次放假回国则无法访问Google, Youtube, Facebook, Instagram等网站。解决方案有很多种，羽西先前也给大家推荐过VPN和代理服务器的方法，今天，给大家推荐一款靠谱的产品：Butterfly VPN便携式VPN路由器，也是目前唯一一款能够自动双向翻墙的VPN路由器。</p>
+<h2 id="Butterfly-VPN便携式VPN产品介绍"><a href="#Butterfly-VPN便携式VPN产品介绍" class="headerlink" title="Butterfly VPN便携式VPN产品介绍"></a>Butterfly VPN便携式VPN产品介绍</h2><p>这是羽西收到的Butterfly VPN：</p>
+<p><img src="/images/technology/butterfly-vpn/1.jpg" alt="Butterfly VPN"></p>
+<p>Butterfly VPN便携式VPN非常小巧，就和一个U盘类似，即插即用，可以方便的和现有WIFI连接。这款产品采用软硬件结合的技术，已经稳定运营超过三年。而且这款产品的最大特点就是能够<strong>自动智能双向翻墙</strong>。</p>
+<h2 id="Butterfly-VPN便携式VPN的安装配置"><a href="#Butterfly-VPN便携式VPN的安装配置" class="headerlink" title="Butterfly VPN便携式VPN的安装配置"></a>Butterfly VPN便携式VPN的安装配置</h2><p>插入Butterfly VPN之前尝试访问优酷视频，会看到这个提示：</p>
+<p><img src="/images/technology/butterfly-vpn/2.jpg" alt="Butterfly VPN"></p>
+<h3 id="第一步，将Butterfly便携式VPN插入电脑"><a href="#第一步，将Butterfly便携式VPN插入电脑" class="headerlink" title="第一步，将Butterfly便携式VPN插入电脑"></a>第一步，将Butterfly便携式VPN插入电脑</h3><p>这时需要检查产品的蓝色指示灯是否持续闪烁，持续慢闪为正常状态。</p>
+<h3 id="连接到“btfly”开头的WIFI"><a href="#连接到“btfly”开头的WIFI" class="headerlink" title="连接到“btfly”开头的WIFI"></a>连接到“btfly”开头的WIFI</h3><p><img src="/images/technology/butterfly-vpn/3.jpg" alt="Butterfly VPN"></p>
+<p>在电脑中连接到“btfly”开头的WIFI，初始密码为12345678。这时会自动打开Buttfly VPN设置页面：</p>
+<p><img src="/images/technology/butterfly-vpn/41.jpg" alt="Butterfly VPN"></p>
+<p>在设置页面输入现有WIFI密码后点击“下一步”，会看到自动绑定的提示</p>
+<p><img src="/images/technology/butterfly-vpn/5.jpg" alt="Butterfly VPN"></p>
+<p>现在再测试一下访问优酷视频，完全没有问题，播放很流畅：</p>
+<p><img src="/images/technology/butterfly-vpn/6.jpg" alt="Butterfly VPN"></p>
+<p>同时，在设置完毕后，这个小小的VPN本身也是一个路由器，其他设备，手机，ipad等等都可以连接到这个“btfly”开头的WIFI，也能顺畅访问国内视频网站了！</p>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>1) 如果短时间内连续插拔Butterfly VPN，它会进入recovery模式，这是仅能搜到未加密的btfly-recovery无线网络。这种情况下，只需要拔下后，再间隔5秒后，重新插入电脑即可。</p>
+<p>2) 如果没有自动弹出登录到网络的窗口，请打开浏览器访问：<a href="http://192.168.154.1" rel="external nofollow noopener noreferrer" target="_blank">http://192.168.154.1</a>, 然后按屏幕提示操作即可。</p>
+<p>3) 这款产品能够即插即用，拔下后可以连接到原有WIFI网络，插上后则能后自动智能翻墙。</p>
+<h2 id="如何订购"><a href="#如何订购" class="headerlink" title="如何订购"></a>如何订购</h2><p>【<a href="https://butterflyvpn.us/?ref=yuxifanw" rel="external nofollow noopener noreferrer" target="_blank">官网订购页面</a>】</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在海外读书生活的小伙伴们经常会遇到一个很烦人的问题，就是在访问国内优酷，爱奇艺，腾讯视频等视频网站追剧的时候经常会看到“您所在的国家或地区暂时无法使用”的提示信息。或者每次放假回国则无法访问Google, Youtube, Facebook, Instagram等网站。解决
+    
+    </summary>
+    
+      <category term="技术" scheme="http://www.yuxiau.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="VPN" scheme="http://www.yuxiau.com/tags/VPN/"/>
+    
+      <category term="Butterfly VPN" scheme="http://www.yuxiau.com/tags/Butterfly-VPN/"/>
+    
+  </entry>
   
   <entry>
     <title>Swisse葡萄籽精华</title>
@@ -981,58 +1024,6 @@
       <category term="演唱会" scheme="http://www.yuxiau.com/tags/%E6%BC%94%E5%94%B1%E4%BC%9A/"/>
     
       <category term="周华健" scheme="http://www.yuxiau.com/tags/%E5%91%A8%E5%8D%8E%E5%81%A5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>唱响墨尔本第二季要开唱了，身为歌神的你不心动?</title>
-    <link href="http://www.yuxiau.com/sing-melbourne-2017/"/>
-    <id>http://www.yuxiau.com/sing-melbourne-2017/</id>
-    <published>2017-05-16T05:40:12.000Z</published>
-    <updated>2017-06-06T08:59:46.402Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/events/2017/sing-melbourne.jpg" alt="Sing Melbourne唱响墨尔本"></p>
-<p>Sing Melbourne唱响墨尔本是由澳大利亚中恒集团主办，从2016年开始的高校歌唱比赛, 旨在为墨尔本各大高校 (包括Unimelb, Monash, RMIT, Deakin, Latrobe, Victoria Uni, Swinburn)多才多艺的同学们提供展示自己的平台, 并打造受人瞩目的校园明星歌手。虽然活动到目前为止只举办了一届, 但已在墨尔本各个高校学生群体中成为了一个高人气且具有品牌影响力和认知度的活动。现在第二季正式开始, 在2017年4月8日到8月5日之间, 唱响墨尔本将带着更吸引人的赛制和更专业的音乐团队强势回归。截至到目前为止，海选报名已经进入倒计时。<strong>报名人数已突破100人</strong>。海选将于5月20日和5月27日举办，<strong>报名通道将于5月25日关闭</strong>。</p>
-<p>如需报名，请扫描下方报名二维码<br><img src="/images/events/2017/sing-melbourne-1.jpg" alt="Sing Melbourne唱响墨尔本"></p>
-<p>或拨打电话03 902 008 16咨询</p>
-<h2 id="全墨尔本最强评委阵容"><a href="#全墨尔本最强评委阵容" class="headerlink" title="全墨尔本最强评委阵容"></a>全墨尔本最强评委阵容</h2><p>唱响墨尔本第二季决赛评委阵容可以说是超级豪华。同时，来自中国好声音第四季的两位歌手也将在决赛现场共献唱四首歌曲！而决赛现场也会请到指纹乐队为十强选手进行live伴奏！</p>
-<p>决赛现场的超强评委和嘉宾分别是: </p>
-<h3 id="李邹珺-贝贝"><a href="#李邹珺-贝贝" class="headerlink" title="李邹珺\贝贝"></a>李邹珺\贝贝</h3><p>贝贝曾经在2014年参加东方卫视选秀娱乐节目《中国梦之声第二季》的比赛，试音会获得三位导师全票通过 。2015年参加浙江卫视《中国好声音第四季》比赛，获得汪峰组冠军、全国总决赛第四名 ；同年，获得“中国大学生青春音乐节颁奖盛典”最具潜力女歌手奖。2016年，推出首张个人EP专辑《young rock star》；同年10月，获得“Vip音乐榜颁奖典礼”Vip女歌手金奖，而歌曲《Young rock star》则获得Vip热播歌曲大奖；同年12月16日，获得“第11届劲歌王全球华人年度音乐盛典”最佳摇滚新人奖 。贝贝将在总决赛现场献歌两首。</p>
-<h3 id="徐歌阳"><a href="#徐歌阳" class="headerlink" title="徐歌阳"></a>徐歌阳</h3><p>徐歌阳曾经在2016中国新歌声比赛中获得汪峰组亚军，并获得全国总决赛第四名；同年10月18日，参加在郑州举行的“碧源13周年群星演唱会”；同年11月25日，参加在沈阳鑫荷相声汇铁西剧场举行的相声演出，并与圣朗合作表演了相声《欢声笑语》。徐歌阳将在总决赛现场献歌两首。</p>
-<h3 id="张瑜Angel"><a href="#张瑜Angel" class="headerlink" title="张瑜Angel"></a>张瑜Angel</h3><p>张瑜Angel曾经在1999年师从著名声乐老师潘乃宪及上海音乐学院著名声乐教育家郑仲明老师，学习声乐；2000年 在女子乐队“花木兰”担任主唱，开始了舞台歌唱生涯；2002年获“上海十佳歌手奖”；2002年获“全球华人新秀歌唱大赛总决赛”亚军；现已发行四张个人翻唱专辑。</p>
-<h3 id="Sam"><a href="#Sam" class="headerlink" title="Sam"></a>Sam</h3><p>国内知名音乐人，国内多台大型综艺节目晚会音乐总监，多场大型演唱会音乐监制及乐队总监。现任澳洲流行音乐协会副会长；曾参与羽泉两张专辑的制作；曾担任柳岩等国内知名艺人声乐辅导老师；担任江苏卫视2014至2016年三年春晚音乐总监；参与制作浙江卫视2015-2016跨年演唱会等。</p>
-<h3 id="指纹乐队-FingerPrint"><a href="#指纹乐队-FingerPrint" class="headerlink" title="指纹乐队\FingerPrint"></a>指纹乐队\FingerPrint</h3><p>指纹乐队曾多次参加墨尔本地区的歌唱比赛及大型晚会演出，由主唱Angel\贝斯手Nick\吉他手JoJo\键盘手Sam Wong\鼓手Elyar等人组成。曾担任澳星俱乐部晚会、澳星中秋聚会、维州华人酒业协会年会、维州华人联合会春节庆演、孔子学院春节庆演等30余场现场演出，并在2015年举办过指纹乐队专场演出。</p>
-<h2 id="决赛奖项"><a href="#决赛奖项" class="headerlink" title="决赛奖项"></a>决赛奖项</h2><p>决赛奖项: </p>
-<ul>
-<li>冠军一位 奖金1000AUD </li>
-<li>亚军一位 奖金800AUD</li>
-<li>季军一位 奖金500AUD</li>
-<li>最具人气奖一位 奖杯一座</li>
-</ul>
-<h2 id="冠军荣誉"><a href="#冠军荣誉" class="headerlink" title="冠军荣誉:"></a>冠军荣誉:</h2><ul>
-<li>唱响墨尔本第二季冠军荣誉奖杯</li>
-<li>专业录音师录制的EP一张</li>
-<li>由唱响墨尔本导演组推荐给合作的国内歌星发掘公司, 有可能获得签约并在音乐界发展<br>8 冠军奖金1000AUD<br>*由赞助商提供的超丰厚精美礼品</li>
-</ul>
-<h2 id="参赛要求"><a href="#参赛要求" class="headerlink" title="参赛要求"></a>参赛要求</h2><ul>
-<li>参赛者需是墨尔本各大高校在读学生, 或毕业未满两年</li>
-<li>擅长唱歌, 任何音乐风格皆可</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/images/events/2017/sing-melbourne.jpg&quot; alt=&quot;Sing Melbourne唱响墨尔本&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Sing Melbourne唱响墨尔本是由澳大利亚中恒集团主办，从2016年开始的高校歌唱比赛, 旨在为墨
-    
-    </summary>
-    
-      <category term="活动" scheme="http://www.yuxiau.com/categories/%E6%B4%BB%E5%8A%A8/"/>
-    
-    
-      <category term="墨尔本" scheme="http://www.yuxiau.com/tags/%E5%A2%A8%E5%B0%94%E6%9C%AC/"/>
-    
-      <category term="唱响墨尔本" scheme="http://www.yuxiau.com/tags/%E5%94%B1%E5%93%8D%E5%A2%A8%E5%B0%94%E6%9C%AC/"/>
     
   </entry>
   
